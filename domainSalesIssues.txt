@@ -1,0 +1,23 @@
+1) All errrors should be displayed at once.
+
+2) Need to change below error messages
+a) Expected result: Only numric values are allowed in <column name>.
+Actual result: Conversion failed when converting the nvarchar value 'wrong inquiries' to data type int.
+Conversion failed when converting the nvarchar value 'wrong estibot' to data type int.
+Conversion failed when converting the nvarchar value 'wrong afternic' to data type int.
+Conversion failed when converting the nvarchar value 'wrong sedo' to data type int.
+Conversion failed when converting the nvarchar value 'wrong buynow' to data type int.
+
+b) Expected result: Only valid Portfolio IDs are allowed in portfolio_id column.
+Actual result: INVALID PORTFOLIO PASSED
+
+c) 
+
+3) Need to change below error messages. Error messages should be displayed for each column
+Expected result: Only following values are allowed in Domain Status column: Active, Expired, Sold, UDRP, Others
+Only following values are allowed in Reseller column: Reseller1, Reseller3, DPF1, DPF2, DPF3, DISP
+Only following values are allowed in Rating Values column: High, Average, Low
+Actual Result: INVALID XML (PLEASE CHECK DOMAIN_STATUS,RESELLER AND RATING VALUES)
+
+4) 
+
